@@ -35,3 +35,5 @@ Console.WriteLine("Ayaqqabi sayi :" + thirdBrandcount);
 Console.WriteLine("Birinin qiymeti ($) :" + thirdBrandprice);
 Console.WriteLine("Hamısının birlikdə qiymeti ($) :" + thirdtotalPrice);
 
+
+
