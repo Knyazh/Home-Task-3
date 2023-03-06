@@ -38,3 +38,5 @@ Console.WriteLine("Hamısının birlikdə qiymeti ($) :" + thirdtotalPrice);
 
 //Console.WriteLine( "Test changes");
 //Console.WriteLine( thirdBrandcount);
+
+Console.WriteLine();
