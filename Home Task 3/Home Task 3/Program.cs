@@ -1,7 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
-string firstBrandName = "Adidas";
-int firstBrandcount = 4;
-int firstBrandprice = 200;
+
+
+Console.Write("Brand Name :");
+string firstBrandName = Console.ReadLine();
+Console.Write("Brand Count :");
+int firstBrandcount = int.Parse (Console.ReadLine());
+Console.Write("Brand Price :");
+int firstBrandprice = int.Parse(Console.ReadLine());
 int firsttotalPrice = firstBrandcount * firstBrandprice;
 
 
@@ -12,10 +17,12 @@ Console.WriteLine("Hamısının birlikdə qiymeti ($) :" + firsttotalPrice);
 Console.WriteLine(" ");
 Console.WriteLine(" ");
 
-
-string secondBrandName = "Gucci";
-int seconBrandcount = 2;
-int secondBrandprice = 1000;
+Console.Write("Brand Name :");
+string secondBrandName = Console.ReadLine();
+Console.Write("Brand Count :");
+int seconBrandcount = int.Parse(Console.ReadLine());
+Console.Write("Brand Price :");
+int secondBrandprice = int.Parse(Console.ReadLine());
 int secondtotalPrice = seconBrandcount * secondBrandprice;
 
 Console.WriteLine("Firma :" + secondBrandName);
@@ -25,9 +32,12 @@ Console.WriteLine("Hamısının birlikdə qiymeti ($) :" + secondtotalPrice);
 Console.WriteLine(" ");
 Console.WriteLine(" ");
 
-string thirdBrandName = "Nike";
-int thirdBrandcount = 1;
-int thirdBrandprice = 150;
+Console.Write("Brand Name :");
+string thirdBrandName = Console.ReadLine();
+Console.Write("Brand Count :");
+int thirdBrandcount = int.Parse(Console.ReadLine());
+Console.Write("Brand Price :");
+int thirdBrandprice = int.Parse(Console.ReadLine());
 int thirdtotalPrice = thirdBrandcount * thirdBrandprice;
 
 Console.WriteLine("Firma :" + thirdBrandName);
